@@ -19,7 +19,7 @@ const Header = () => {
           <div className="navbar-logo-box">
             <span className="logo-sm">
               <a href="/">
-              <img src="/assets/images/logo.png" alt="logos" width={100} />
+              <img src="/assets/images/logomain.png" alt="logos" width={100} />
               </a>
             </span>
             <button onClick={handleLogout}>Logout</button>
