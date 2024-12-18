@@ -198,14 +198,6 @@ const LazyLoad = () => {
   const CitySalesManager = lazy(() => import(`../pages/addSalesUsers/CitySalesManager`));
   const SalesExecutive = lazy(() => import(`../pages/addSalesUsers/SalesExecutive`));
 
-  //////////////////////////////// Cache Management ////////////////////////
-
-  const CacheManagemenet = lazy(() => import(`../pages/CacheManagement`));
-
-  //////////////////////////////// Backups ////////////////////////
-
-  const Backups = lazy(() => import(`../pages/Backups`));
-
   /////////////////////////////// Meta vese listings ///////////////////////
 
   const AddMetaListings = lazy(() => import(`../pages/metaverseListings/AddListings`));
@@ -353,10 +345,6 @@ const LazyLoad = () => {
         <Route path="/statedirectorsales" element={<StateDirectorSales />} />
         <Route path="/citysalesmanager" element={<CitySalesManager />} />
         <Route path="/salesexecutive" element={<SalesExecutive />} />
-        {/* //////////////////////////////// Cache Management ////////////////////////  */}
-        <Route path="/cachemanagement" element={<CacheManagemenet />} />
-        {/* //////////////////////////////// Backups ////////////////////////  */}
-        <Route path="/backups" element={<Backups />} />
         {/* /////////////////////// Meta listing ///////////////// */}
         <Route path='/AddListing' element={<AddMetaListings />} />
         <Route path='/careers-response' element={<CareersRes />} />

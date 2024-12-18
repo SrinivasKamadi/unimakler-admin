@@ -168,8 +168,6 @@ const Sidebars = () => {
 
             <MenuItem component={<Link to="/cachemanagement" />}>CacheManagemenet </MenuItem>
 
-            <MenuItem component={<Link to="/backups" />}>Backups </MenuItem>
-
             <SubMenu label="Scheduled visits">
               <MenuItem component={<Link to="/scheduledprojects" />}> Projects </MenuItem>
               <MenuItem component={<Link to="/scheduledproperty" />}> Property </MenuItem>
