@@ -175,8 +175,10 @@ const Sidebars = () => {
 
             <SubMenu label="Responses">
               <MenuItem component={<Link to="/careers-response" />}> Careers </MenuItem>
+              <MenuItem component={<Link to="/franchiseLedas" />}> Franchise Leads </MenuItem>
               <MenuItem component={<Link to="/contact-response" />}> Contact Us </MenuItem>
               <MenuItem component={<Link to="/feedback-response" />}> Feed Back </MenuItem>
+              
             </SubMenu>
           </>
         )}

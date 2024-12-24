@@ -205,6 +205,8 @@ const LazyLoad = () => {
   const CareersRes = lazy(() => import(`../pages/responses/CareersRes`));
   const ContactRes = lazy(() => import(`../pages/responses/ContactRes`));
   const FeedBack = lazy(() => import(`../pages/responses/FeedBack`));
+  const FranchiseLeads = lazy(() => import(`../pages/responses/FranchiseLeads.jsx`));
+
 
 
   return (
@@ -350,6 +352,7 @@ const LazyLoad = () => {
         <Route path='/careers-response' element={<CareersRes />} />
         <Route path='/contact-response' element={<ContactRes />} />
         <Route path='/feedback-response' element={<FeedBack />} />
+        <Route path='/franchiseLedas' element={<FranchiseLeads />} />
 
       </Routes>
     </Suspense>
